@@ -1,7 +1,3 @@
-#Since my VS compiler has a problem, I could get it work on this, so I also attached jupyternotebook. The project is the following, given the 
-#day and the number of confirmed cases in a model country, decision tree make a model for deaths based on day and confirmed cases. 
-# You can give it a try, set a country as a model and then another country for comparison.  
-
 #Data is downloaded from https://www.ecdc.europa.eu/en/publications-data 
 
 from  sklearn import tree
