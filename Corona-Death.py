@@ -54,7 +54,7 @@ class main():
         return fitting1
 
 
-def call():
+class call:
     with open("new_corona.csv", "r") as f:
         lines = f.readlines()
         countries = [row.split(",")[1] for row in lines]
@@ -87,7 +87,8 @@ def call():
     
     print("Death in the day %i of Corona based on the predicted model is %i and the actual death is %i" %(day, int(predicted_death[day]), int(death[day])))
 
-call()
+call
+
 
 
 # In[ ]:
